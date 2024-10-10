@@ -1,0 +1,21 @@
+//git je program, ktery dokaze uchovavt historii projektu
+//my si v gitu budeme vytvaret ruzne commity(checkpointy, snapshoty, body obnovy)
+
+//github je cloudova sluzba kam muzeme pak nasi historii uploadnout a sdilet s ostanima lidma
+
+//zjistit zda v pocitaci je git naintalovany
+//git version 2.45.2.windows.1
+# git -v
+
+//jak zahajit verzovani projektu?
+//otevreme terminal na slozce, kterou chceme verzovat
+//v terminalu slozky spustime tento prikaz
+# git init
+
+//nyni kdyz mate ve slozce uz git, tak kazdy soubor a slozka budou mit u sebe oznaceni v jakem stavu jsou
+U - untracked: soubor je uplne novy a v historii o nem jeste nemame zadny zaznam
+M - modified: soubor, ktery je v pracovni plose, se lidi od souboru, kter y jev historii ulozeny
+A - added: soubor je pripraveny pro prvni zapis do historie
+D - deleted: soubor v historii existuje, ale je pripraveny pro odstraneni z pracovni plochy
+
+//náš první commit
