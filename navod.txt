@@ -81,3 +81,14 @@ https://github.com/Pidli/git-minikurz
 //projekt je mozne do pocitace vytvorit 2 zpusoby
 //clone: vznikne novy projekt, ktery uz nema zadne spojeni s original projektem
 //fork: vznikne projekt, ktery ma stale odkazy na puvodni historii a muzeme do originalni historii pak prispivat
+
+//klonovat muzete prikazem nebo staci otevrit nove okno VSC a kliknout na tlacitko clone repository
+
+//kdyz forkujete a chcte originalnu autorovi nabidnout svuj kod, tak provedete commit a originalnimu autorovi pak poslete "pull request"
+//autor se na vas pull request podiva a bud provede merge nebo pull request zrusi
+
+//nektere soubory chceme permanente zaignorvat, aby je git vubec nevidel a nepocital s nima
+//vetsinou jsou to configuracni soubor nebo slozka vendor nebo soubor s hesly
+
+//vytovrime si soubor, ktery se jmenuje .gitignore
+//v tomto souboru uvedeme vsechyn soubory a slozky, ktere git neuvidi
